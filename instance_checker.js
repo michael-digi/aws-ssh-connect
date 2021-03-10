@@ -18,7 +18,7 @@ let params = {
 const instanceIds = [];
 
 // Uncomment to write to a file below
-const log = fs.createWriteStream('YOUR_FILENAME_HERE.txt', { flags: 'a' });
+// const log = fs.createWriteStream('YOUR_FILENAME_HERE.txt', { flags: 'a' });
 
 // To describe ALL instances, change this line to this:
 // ec2.describeInstances({ }, async (err, data) => { 
