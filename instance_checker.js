@@ -45,7 +45,7 @@ ec2.describeInstances(params, async (err, data) => {
 
             await ssh.connect(sshconfig)
 
-            const result = await ssh.exec('ls') // Command you'd like to run on the instancea
+            const result = await ssh.exec('ls') // Command you'd like to run on the instance
 
             // Uncomment this line to write to a file
             // log.write(`Name: ${instance.name}\nPrivateIp: ${instance.ip}\nInstanceID: ${instance.instanceId}\n\n ${result.toString()} \n\n --------------------------------- \n\n`);
